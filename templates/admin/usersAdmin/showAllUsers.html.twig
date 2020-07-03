@@ -16,7 +16,6 @@
     </div>
 {% endfor %}
 
-{# <a href="{{path('admin.user.create')}}" class="btn btn-info w-100">Ajouter un Utilisateur</a> #}
 
 <div>
     <form action="{{path('admin_users_by_name')}}" method="GET">
@@ -24,8 +23,7 @@
         <button class="btn btn-info p-1 m-1 mx-auto " type="submit"><i class="fas fa-search"></i></button>
         <a href="{{path('admin.users')}}" class="btn btn-primary p-1 m-1 mx-auto">Voir Tout</a>
         <a href="{{path('admin_users_trail')}}" class="btn btn-primary p-1 m-1 mx-auto">Adhérent Trail</a>
-        {# <a href="{{path('admin_users_trek')}}" class="btn btn-primary p-1 m-1 mx-auto">Adhérent Trek</a>
-        <a href="{{path('admin_users_vtt')}}" class="btn btn-primary p-1 m-1 mx-auto">Adhérent VTT</a> #}
+
     </form>
 </div>
 
